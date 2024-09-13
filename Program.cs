@@ -50,7 +50,7 @@ namespace pockemonnaumov
             pokemon.special_attack = 300;
             pokemon.special_defense = 400;
             pokemon.speed = 500;
-            
+            Console.WriteLine($"Name: Gabite \n HP:{pokemon.HP} \n Attack:{pokemon.attack}");
         }
     }
 }
