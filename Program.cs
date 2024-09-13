@@ -33,7 +33,12 @@ namespace pockemonnaumov
                                 gabite.statics();
                                 break;
                             }
-
+                        case 3:
+                            {
+                                Garchomp garchomp = new Garchomp();
+                                garchomp.statics();
+                                break;
+                            }
                     }
                 }
 
