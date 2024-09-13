@@ -35,7 +35,7 @@ namespace pockemonnaumov
             pokemon.special_attack = 300;
             pokemon.special_defense = 300;
             pokemon.speed = 400;
-            
+            Console.WriteLine($"Name: Gible \n HP:{pokemon.HP} \n Attack:{pokemon.attack}");
         }
     }
     class Gabite
