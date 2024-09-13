@@ -85,4 +85,20 @@ namespace pockemonnaumov
             Console.WriteLine($"Name: Gabite \n HP:{pokemon.HP} \n Attack:{pokemon.attack}");
         }
     }
+    class Garchomp
+    {
+        Pokemon pokemon = new Pokemon();
+
+        public void statics()
+        {
+            pokemon.HP = 700;
+            pokemon.attack = 800;
+            pokemon.defense = 600;
+            pokemon.special_attack = 500;
+            pokemon.special_defense = 500;
+            pokemon.special_attack = 600;
+            pokemon.speed = 600;
+            Console.WriteLine($"Name: Garchomp \n HP:{pokemon.HP} \n Attack:{pokemon.attack}");
+        }
+    }
 }
