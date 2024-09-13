@@ -49,7 +49,7 @@ namespace pockemonnaumov
             pokemon.defense = 400;
             pokemon.special_attack = 300;
             pokemon.special_defense = 400;
-            pokemon.speed = 0;
+            pokemon.speed = 500;
             
         }
     }
