@@ -31,8 +31,8 @@ namespace pockemonnaumov
         {
             pokemon.HP = 400;
             pokemon.attack = 500;
-            pokemon.defense = 0;
-            pokemon.special_attack = 0;
+            pokemon.defense = 300;
+            pokemon.special_attack = 300;
             pokemon.special_defense = 0;
             pokemon.speed = 0;
         }
