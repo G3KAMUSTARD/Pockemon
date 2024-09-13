@@ -34,7 +34,8 @@ namespace pockemonnaumov
             pokemon.defense = 300;
             pokemon.special_attack = 300;
             pokemon.special_defense = 300;
-            pokemon.speed = 300;
+            pokemon.speed = 400;
+            
         }
     }
     class Gabite
