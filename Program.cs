@@ -10,6 +10,38 @@ namespace pockemonnaumov
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("Select Pokemon: \n1) Gible \n2) Gabite \n3) Garchomp");
+                    Console.Write("Write number Pokemon: ");
+                    int select = int.Parse(Console.ReadLine());
+
+                    switch (select)
+                    {
+                        case 1:
+                            {
+                                Gible gible = new Gible();
+                                gible.statics();
+                                break;
+                            }
+
+                        case 2:
+                            {
+                                Gabite gabite = new Gabite();
+                                gabite.statics();
+                                break;
+                            }
+
+                    }
+                }
+
+                catch
+                {
+
+                }
+            }
         }
 
     }
