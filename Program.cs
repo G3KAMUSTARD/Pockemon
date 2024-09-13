@@ -37,4 +37,19 @@ namespace pockemonnaumov
             pokemon.speed = 300;
         }
     }
+    class Gabite
+    {
+        Pokemon pokemon = new Pokemon();
+
+        public void statics()
+        {
+            pokemon.HP = 400;
+            pokemon.attack = 600;
+            pokemon.defense = 0;
+            pokemon.special_attack = 0;
+            pokemon.special_defense = 0;
+            pokemon.speed = 0;
+            
+        }
+    }
 }
