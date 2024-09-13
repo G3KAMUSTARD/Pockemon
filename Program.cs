@@ -15,7 +15,7 @@ namespace pockemonnaumov
                 try
                 {
                     Console.WriteLine("Select Pokemon: \n1) Gible \n2) Gabite \n3) Garchomp");
-                    Console.Write("Write number Pokemon: ");
+                    Console.Write("Write Pokemon number: ");
                     int select = int.Parse(Console.ReadLine());
 
                     switch (select)
